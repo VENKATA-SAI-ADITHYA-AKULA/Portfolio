@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- UNICONS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Venkata Sai Adithya Akula</p>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button class="btn" onclick="downloadResume()">Download Resume <i class="uil uil-file-alt"></i></button>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+            <!-- -------------- FEATURED BOX ---------------- -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-info">
+                        <p>Highly motivated and result-oriented Computer Science Engineering student actively pursuing a
+                            Bachelor's degree, eager to apply theoretical knowledge and practical skills in real-world
+                            scenarios. Seeking entry-level opportunities to gain hands-on experience and contribute to
+                            innovative projects in the field of computer science.
+                        </p>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon"><a href="https://www.instagram.com/adithya_1703/" target="_blank"><i
+                                    class="uil uil-instagram"></i></a></div>
+                        <div class="icon"><a href="https://www.linkedin.com/in/akula-venkata-sai-adithya-96514323a/"
+                                target="_blank"><i class="uil uil-linkedin-alt"></i></a></div>
+                        <div class="icon"><a href="https://github.com/VENKATA-SAI-ADITHYA-AKULA" target="_blank"><i
+                                    class="uil uil-github-alt"></i></a></div>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="avsa.jpg" alt="avatar">
+                    </div>
+                </div>
+            </section>
+            <!-- -------------- ABOUT ME BOX ---------------- -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h3>My introduction</h3>
+                            <p>Welcome to my portfolio. I'm Venkata Sai Adithya Akula, currently studying Computer
+                                Science and Engineering at the National Institute of Technology. With a strong academic
+                                background and hands-on experience in software development gained through internships, I
+                                bring proficiency in programming languages like Java, Python, and C++. Beyond my
+                                studies, I'm an avid sports enthusiast, enjoying cricket, badminton, and chess. I'm
+                                eager to leverage my skills and experiences to contribute effectively to the world of
+                                technology.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Technical Skills</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>C</span>
+                                <span>CPP</span>
+                                <span>Python</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Course Works</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>Data Structures</span>
+                                <span>Operating System</span>
+                                <span>DBMS</span>
+                                <span>Machine Learning</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- -------------- PROJECT BOX ---------------- -->
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                    <p>(click on the box to see the project)
+                    <p>
+                </div>
+                <div class="project-container">
+                    <!-- Project 1 -->
+                    <div class="project-box">
+                        <a href="https://github.com/VENKATA-SAI-ADITHYA-AKULA/text_compression" target="_blank">
+                            <h3>Text Compression</h3>
+                        </a>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="project-box">
+                        <a href="https://github.com/VENKATA-SAI-ADITHYA-AKULA/Loan-Approval-Prediction-Using-Machine-Learning"
+                            target="_blank">
+                            <h3>Loan Approval Prediction</h3>
+                        </a>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="project-box">
+                        <a href="https://github.com/VENKATA-SAI-ADITHYA-AKULA/Portfolio" target="_blank">
+                            <h3>Portfolio</h3>
+                        </a>
+                    </div>
+                    <!-- Project for more -->
+                    <div class="project-box">
+                        <a href="https://github.com/VENKATA-SAI-ADITHYA-AKULA?tab=repositories" target="_blank">
+                            <h3>For More Projects</h3>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- -------------- CONTACT BOX ---------------- -->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Get in touch</h1>
+                </div>
+                <div class="contact-info">
+                    <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="uil uil-envelope"></i> Email: avsadithya2003@gmail.com</p>
+                    <p><i class="uil uil-phone"></i> +91 9014959239</p>
+                </div>
+            </section>
+        </main>
+    </div>
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- ----- MAIN JS ----- -->
+    <script src="script.js"></script>
+</body>
+
+</html>
